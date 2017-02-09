@@ -288,7 +288,7 @@
 <h2 id="更新源"><a href="#更新源" class="headerlink" title="更新源"></a>更新源</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pi@raspberrypi:~$ sudo apt-get update &amp;&amp; apt-get upgrade -y</div></pre></td></tr></table></figure>
 <h2 id="安装录音"><a href="#安装录音" class="headerlink" title="安装录音"></a>安装录音</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install alsa-oss</div></pre></td></tr></table></figure>
 <h3 id="安装完以后，执行："><a href="#安装完以后，执行：" class="headerlink" title="安装完以后，执行："></a>安装完以后，执行：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">arecord -d 3 -r 16000 -c 1 -t wav -f S16_LE test.wav</div></pre></td></tr></table></figure>
-<p><img src="C:\Users\Administrator\Documents\My Knowledge\temp\baidu_1483170088728_files/a75202be-387d-4ac9-8f0c-e4c64b221ca3.png" alt=""></p>
+<p><img src="1.png" alt=""></p>
 <p>原因没有指定设备<br><img src="C:\Users\Administrator\Documents\My Knowledge\temp\baidu_1483170088728_files/560afca5-8347-444e-bcea-52d29a461e11.png" alt=""></p>
 <p>我们的处理方法是：</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">arecord -d 3 -r 16000 -c 1 -t wav -f S16_LE  -D plughw:1,0 iflytek02.wav</div></pre></td></tr></table></figure>
