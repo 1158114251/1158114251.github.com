@@ -6,14 +6,27 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2017/2 | Hexo</title>
+  <title>毕业设计第二天 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2017/02/index.html">
+  <meta name="description" content="1. 树莓派中文安装
+sudo apt-get install ttf-wqy-zenhei将安装文泉驿的开源中文字体，在这里向文泉驿表示致敬，貌似它是唯一一个开源的中文字体库。郭嘉有钱建孔子学院，但是从来不会有钱搞一套比较完整的开源中文字库出来的。
+
+sudo raspi-config设置选择，按空格键在前面打勾或去掉勾（星号=勾），PageUp PageDown快速翻页，Tab键跳到OK按钮上">
+<meta property="og:type" content="article">
+<meta property="og:title" content="毕业设计第二天">
+<meta property="og:url" content="http://yoursite.com/2017/02/09/毕业设计第二天/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1. 树莓派中文安装
+sudo apt-get install ttf-wqy-zenhei将安装文泉驿的开源中文字体，在这里向文泉驿表示致敬，貌似它是唯一一个开源的中文字体库。郭嘉有钱建孔子学院，但是从来不会有钱搞一套比较完整的开源中文字库出来的。
+
+sudo raspi-config设置选择，按空格键在前面打勾或去掉勾（星号=勾），PageUp PageDown快速翻页，Tab键跳到OK按钮上">
+<meta property="og:updated_time" content="2017-02-09T04:18:40.695Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="毕业设计第二天">
+<meta name="twitter:description" content="1. 树莓派中文安装
+sudo apt-get install ttf-wqy-zenhei将安装文泉驿的开源中文字体，在这里向文泉驿表示致敬，貌似它是唯一一个开源的中文字体库。郭嘉有钱建孔子学院，但是从来不会有钱搞一套比较完整的开源中文字库出来的。
+
+sudo raspi-config设置选择，按空格键在前面打勾或去掉勾（星号=勾），PageUp PageDown快速翻页，Tab键跳到OK按钮上">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -149,36 +162,99 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-毕业设计第二天" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/02/09/毕业设计第二天/" class="archive-article-date">
-  	<time datetime="2017-02-09T04:17:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-09</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/02/09/毕业设计第二天/">毕业设计第二天</a>
+    <h1 class="article-title" itemprop="name">
+      毕业设计第二天
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2017/02/09/毕业设计第二天/" class="archive-article-date">
+  	<time datetime="2017-02-09T04:17:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-09</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="1-树莓派中文安装"><a href="#1-树莓派中文安装" class="headerlink" title="1. 树莓派中文安装"></a>1. 树莓派中文安装</h3><ul>
+<li><p>sudo apt-get install ttf-wqy-zenhei<br>将安装文泉驿的开源中文字体，在这里向文泉驿表示致敬，貌似它是唯一一个开源的中文字体库。郭嘉有钱建孔子学院，但是从来不会有钱搞一套比较完整的开源中文字库出来的。</p>
+</li>
+<li><p>sudo raspi-config<br>设置选择，按空格键在前面打勾或去掉勾（星号=勾），PageUp PageDown快速翻页，Tab键跳到OK按钮上<br>去掉en_GB.UTF-8 UTF-8，勾上：“en_US.UTF-8 UTF-8”、“zh_CN.UTF-8 UTF-8”、下一屏幕默认语言选zh_CN.UTF-8。 </p>
+</li>
+</ul>
+<h3 id="2-安装输入法给树莓派"><a href="#2-安装输入法给树莓派" class="headerlink" title="2.安装输入法给树莓派"></a>2.安装输入法给树莓派</h3><ul>
+<li><p>1、基于Fcitx输入法框架的google拼音输入法，在命令行中输入以下命令即可安装。<br><code>sudo apt-get install fcitx fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-sunpinyin</code></p>
+</li>
+<li><p>Ibus输入法是一个基于Python开发的全新输入法框架，支持多种语言。<br>安装命令：sudo apt-get install ibus ibus-pinyin</p>
+</li>
+</ul>
+<h3 id="3-vnc远程桌面"><a href="#3-vnc远程桌面" class="headerlink" title="3.vnc远程桌面"></a>3.vnc远程桌面</h3><p>　原理简介：首先需要在树莓派上安装并启动VNC服务，然后通过VNC客户端进行连接。<br>　　在树莓派上安装VNC需要使用命令行。如果需要远程操作安装VNC，就必须通过SSH登录到命令行界面（Raspbian的默认用户名是：pi，默认密码是：raspberry）。 </p>
+<p><strong>安装</strong><br>命令行输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install tightvncserver</div></pre></td></tr></table></figure>
+<p>安装好之后请一定先使用此命令设置一个VNC密码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vncpasswd</div></pre></td></tr></table></figure>
+<p>（先输入操作密码两次，然后会询问是否设置一个查看(view-only)密码，按自己喜欢，一般没必要。）</p>
+<p><strong>设置开机启动</strong><br>　　设置开机启动，需要在/etc/init.d/中创建一个文件。例如tightvncserver：<br>（注：启动脚本的名称，有和程序名一致的习惯）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo vi /etc/init.d/tightvncserver</div></pre></td></tr></table></figure>
+<p>内容如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div></pre></td><td class="code"><pre><div class="line">#!/bin/sh</div><div class="line">### BEGIN INIT INFO</div><div class="line"># Provides:          tightvncserver</div><div class="line"># Required-Start:    $local_fs</div><div class="line"># Required-Stop:     $local_fs</div><div class="line"># Default-Start:     2 3 4 5</div><div class="line"># Default-Stop:      0 1 6</div><div class="line"># Short-Description: Start/stop tightvncserver</div><div class="line">### END INIT INFO</div><div class="line"></div><div class="line"># More details see:</div><div class="line"># http://www.penguintutor.com/linux/tightvnc</div><div class="line"></div><div class="line">### Customize this entry</div><div class="line"># Set the USER variable to the name of the user to start tightvncserver under</div><div class="line">export USER=&apos;pi&apos;</div><div class="line">### End customization required</div><div class="line"></div><div class="line">eval cd ~$USER</div><div class="line"></div><div class="line">case &quot;$1&quot; in</div><div class="line">  start)</div><div class="line">    # 启动命令行。此处自定义分辨率、控制台号码或其它参数。</div><div class="line">    su $USER -c &apos;/usr/bin/tightvncserver -depth 16 -geometry 800x600 :1&apos;</div><div class="line">    echo &quot;Starting TightVNC server for $USER &quot;</div><div class="line">    ;;</div><div class="line">  stop)</div><div class="line">    # 终止命令行。此处控制台号码与启动一致。</div><div class="line">    su $USER -c &apos;/usr/bin/tightvncserver -kill :1&apos;</div><div class="line">    echo &quot;Tightvncserver stopped&quot;</div><div class="line">    ;;</div><div class="line">  *)</div><div class="line">    echo &quot;Usage: /etc/init.d/tightvncserver &#123;start|stop&#125;&quot;</div><div class="line">    exit 1</div><div class="line">    ;;</div><div class="line">esac</div><div class="line">exit 0</div></pre></td></tr></table></figure>
+<p>（注：USER变量的值为默认用户名，这里是pi。）</p>
+<p>然后给tightvncserver文件加执行权限：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo chmod 755 /etc/init.d/tightvncserver</div></pre></td></tr></table></figure>
+<p>并更新开机启动列表：</p>
+<blockquote>
+<p>报错<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">insserv: warning: script &apos;K02php_fastcgi&apos; missing LSB tags and overrides</div><div class="line">insserv: warning: script &apos;php_fastcgi.sh&apos; missing LSB tags and overrides</div></pre></td></tr></table></figure></p>
+</blockquote>
+<p>解决：在debian6中，加入开机启动脚本的方法与debian5不同了，直接做符号链接到runlevel已经不起作用了，提示缺少LSB信息，并且用insserv来替代update-rc.d：</p>
+<blockquote>
+<p><del>sudo update-rc.d tightvncserver defaults</del></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo insserv -v -d /etc/init.d/tightvncserver</div></pre></td></tr></table></figure>
+<p>重启树莓派：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo shutdown -r now</div></pre></td></tr></table></figure>
+<p>连接VNC：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">192.168.3.19:1  密码zhangfeionline</div></pre></td></tr></table></figure>
+<p><strong>手动启动</strong><br>　　当然也可以手动启动VNC服务器程序，使用以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tightvncserver -geometry 800x600 :1</div></pre></td></tr></table></figure>
+<p>　　如果首次启动，并且未曾使用vncpasswd命令设置密码，程序会要求设置密码。开机启动很方便，所以还是推荐开机启动。</p>
+<p><strong>命令参数说明：</strong><br>一、:1，指定控制台的号码。<br>　　启动多个控制台，可以提供互不影响的多个桌面环境。如果不加此参数，tightvncserver会自动寻找从1开始的下一个空闲控制台。加上此参数，会强制使用指定的控制台，如果此控制台已经启动则报错。加此参数可有效防止无意多次启动程序（会启动多个控制台）白白浪费系统资源。<br>　　特殊的0号控制台——0号控制台就是连接真实显示器真正输出图像的那个桌面。对于VNC客户端，不输入端口号登录，默认就登录到0号控制台，方便。但是因为0号是真正的桌面，所以和开机启动桌面环境存在冲突。因此自动启动的配置教程中，使用1号控制台。<br>二、-geometry 800×600，分辨率。可以不加。</p>
+<p>终止VNC控制台：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tightvncserver -kill :1</div></pre></td></tr></table></figure>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -190,73 +266,88 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/02/09/毕业设计第二天/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/02/09/语音机器人毕业设一/" class="archive-article-date">
-  	<time datetime="2017-02-09T04:03:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-09</time>
-</a>
-        </div>
-    	 
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/02/09/语音机器人毕业设一/">语音机器人毕业设一</a>
-    </h1>
+  
+    <a href="/2017/02/09/语音机器人毕业设一/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">语音机器人毕业设一</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+
+
+
+
+  
+    <div class="duoshuo"></div>
   
 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/02/08/hello-world/" class="archive-article-date">
-  	<time datetime="2017-02-08T12:22:55.378Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-08</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/02/08/hello-world/">Hello World</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -279,8 +370,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
